@@ -27,12 +27,12 @@ public class TestGreeter {
     assertThat(greeter.greet(someone), containsString(someone));
   }
 
-  //  @Test
-  // public void intentionally_Failed() {
-  //   String someone = "World";
+   @Test
+  public void intentionally_Failed() {
+    String someone = "World";
 
-  //   assertTtrue(false);
-  // }
+    assertTtrue(false);
+  }
   
 
   @Test
