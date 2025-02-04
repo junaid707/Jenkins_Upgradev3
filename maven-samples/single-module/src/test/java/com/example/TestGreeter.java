@@ -20,19 +20,19 @@ public class TestGreeter {
     greeter = new Greeter();
   }
 
-  // @Test
-  // public void greetShouldIncludeTheOneBeingGreeted() {
-  //   String someone = "World";
-
-  //   assertThat(greeter.greet(someone), containsString(someone));
-  // }
-
-   @Test
-  public void intentionally_Failed() {
+  @Test
+  public void greetShouldIncludeTheOneBeingGreeted() {
     String someone = "World";
 
-    assertTtrue(false);
+    assertThat(greeter.greet(someone), containsString(someone));
   }
+
+  //  @Test
+  // public void intentionally_Failed() {
+  //   String someone = "World";
+
+  //   assertTtrue(false);
+  // }
   
 
   @Test
