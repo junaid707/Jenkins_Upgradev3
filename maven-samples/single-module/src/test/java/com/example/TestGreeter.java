@@ -28,10 +28,10 @@ public class TestGreeter {
   // }
 
    @Test
-  public void initially_Failed() {
+  public void intentionally_Failed() {
     String someone = "World";
 
-    assertTtrue(False);
+    assertTtrue(false);
   }
   
 
